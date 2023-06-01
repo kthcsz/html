@@ -3,14 +3,14 @@
     --cinza-secundario: #C0C0C0;
     --botao-azul: #6582a5;
     --cor-de-fundo: #71747e;
-    --botao-roxo: #c69ae4;
+    --botao-roxo: #c084e9;
       
 
 }
 
 body {
-    color: var(--branco-principal);
     background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
 }
 
 *{
@@ -19,8 +19,11 @@ body {
 }
 
 .principal {
-    background-image: url(bts-lado-positivo-da-pausa-foto.jpg);
+    background-image: url(bts-heading.jpg);
     background-repeat: no-repeat;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center center;
 
 
 }
@@ -33,6 +36,23 @@ body {
 
 .container_botao{
     background-color: var(--botao-roxo);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-align: center;
+}
+.botao_secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+
+}
+.titulo{
+    text-align: center;
+   color: var(--branco-principal);
+}
+.container_botao-1{
+    background-color: var(--botao-azul);
     border-radius: 5px;
     padding: 1em;
     color: var(--branco-principal);
