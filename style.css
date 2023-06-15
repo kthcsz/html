@@ -19,11 +19,10 @@ body {
 }
 
 .principal {
-    background-image: url(bts-heading.jpg);
+    background-image: url(BTS_-_Dark_&_Wild.jpg);
     background-repeat: no-repeat;
-    min-height: 100%;
-    background-size: cover;
-    background-position: center center;
+    margin-top: 1em;
+    text-align: center;
 
 
 }
@@ -31,7 +30,7 @@ body {
 .container {
     height: 100vh;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 50% 50%;
 }
 
 .container_botao{
@@ -41,6 +40,8 @@ body {
     color: var(--branco-principal);
     display: block;
     text-align: center;
+    margin-bottom: 1em;
+    text-transform: none;
 }
 .botao_secundario{
     background-color: transparent;
@@ -49,7 +50,8 @@ body {
 }
 .titulo{
     text-align: center;
-   color: var(--branco-principal);
+    color: var(--branco-principal);
+    margin: 1em 0 1em 0;
 }
 .container_botao-1{
     background-color: var(--botao-azul);
@@ -58,4 +60,30 @@ body {
     color: var(--branco-principal);
     display: block;
     text-align: center;
+    margin-bottom: 1em;
+    text-decoration: none;
+}
+.container__caixa{
+    margin: 0 8em;
+}
+.container__secundario{
+    width: 90%;
+    border-radius: 10%;
+}
+.secundario{
+    margin: 1em;
+}
+.secundario__botao{
+    display: inline-block;
+    margin: 1em 5em;
+    background-color: var(--botao-azul);
+}
+.secundario__imagem{
+    width: 102%;
+    border-radius: 10%;
+}
+.container__descricao{
+    margin: center;
+    text-align: center;
+    padding: 1em;
 }
