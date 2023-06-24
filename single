@@ -1,0 +1,29 @@
+}
+.singles__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.single{
+    text-align: center;
+    font-size: 24px;
+}
+.single-1{
+    border-radius: 10%;
+}
+.single-2{
+    margin: 0 5em;
+    border-radius: 10%;
+}
+.single-3{
+    border-radius: 10%;
+}
+.container__botao:hover{
+    background-color: var(--botao-efeito-cor);
+}
+.container__botao-1:hover{
+    background-color: var(--botao-roxo);
+}
+.lista__item{
+    margin: 0.5em 0;
+}
