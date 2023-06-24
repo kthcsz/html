@@ -1,38 +1,29 @@
 :root {
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
-    --botao-azul: #6582a5;
+    --botao-azul: #82a7d4;
     --cor-de-fundo: #71747e;
-    --botao-roxo: #c084e9;
-      
-
+    --botao-roxo: #9252bd;
 }
-
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
 }
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
-
 .principal {
-    background-image: url(BTS_-_Dark_&_Wild.jpg);
+    background-image: url(bts-heading.jpg);
     background-repeat: no-repeat;
     margin-top: 1em;
     text-align: center;
-
-
 }
-
 .container {
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
 }
-
 .container_botao{
     background-color: var(--botao-roxo);
     border-radius: 5px;
@@ -41,12 +32,11 @@ body {
     display: block;
     text-align: center;
     margin-bottom: 1em;
-    text-transform: none;
+    text-decoration: none;
 }
 .botao_secundario{
     background-color: transparent;
     border: 2px solid var(--branco-principal);
-
 }
 .titulo{
     text-align: center;
@@ -67,22 +57,28 @@ body {
     margin: 0 8em;
 }
 .container__secundario{
-    width: 90%;
+    width: 70%;
     border-radius: 10%;
 }
 .secundario{
     margin: 1em;
 }
 .secundario__botao{
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    text-align: center;
+    margin-bottom: 1em;
+    text-decoration: none;
     display: inline-block;
     margin: 1em 5em;
     background-color: var(--botao-azul);
 }
 .secundario__imagem{
-    width: 102%;
+    width: 90%;
     border-radius: 10%;
 }
-.container__descricao{
+.container__descricao-1{
     margin: center;
     text-align: center;
     padding: 1em;
