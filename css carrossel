@@ -1,0 +1,20 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+
+:root{
+    --cor-de--fundo: #b0e0e6;
+    --cor-do-menu: #D8BFD8;
+    --titulo: #e6e6fa;
+    --cor-do-menu-fundo: #fff0f5;
+    --link-1: #ffffe0;
+    --link-2: #fafad2;
+    --link-3: #fffacd;
+    --fonte-principal:"Fasthand"
+}
+body{
+ background-color: var(--cor-de--fundo);
+ font-family: 'Playfair Display', serif;
+ font-size: 16px;
+ font-weight: 400;
+}
