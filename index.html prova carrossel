@@ -8,7 +8,7 @@
     <link href="link mt doido" rel="stylesheet">
     <link rel="stylesheet" href="link doido"/>
     <link rel="stylesheet" href="style.css">
-    <title>Loja</title>
+    <title>sweet love</title>
 </head>
 <body>
     <header class="cabeçalho">
@@ -52,13 +52,30 @@
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
         </div>
+    <div class="card">
+        <div class="card_descrição">
+            <div class="descrição">
+                <h3 class="descrição__titulo">Para se eternizar</h3>
+                <h2 class="descrição__titulo-livro">pipipipopopo</h2>
+                <p class="descrição__texto">alalalalalala</p>
+            </div>
+            <img src="foto" class="descrição__imagem" alt="Cartão">
+        </div>
+        <div class="card__botões">
+            <ul class="botões">
+                <ul class="botões__itens"><img src="icone" alt="livro favoritos"></ul>
+                <ul class="botões__itens"><img src="icone" alt="livro pra comprar"></ul>
+            </ul>
+            <a href="#" class="botões__ancora">Saiba mais</a>
+        </div>
+    </div>
     </section>
     <script src="link doido"></script>
         <script>
             const swiper = new Swiper('.swiper',{
             spaceBetween: 10,
             slidesPerView: 3,
-            pagination; {
+            pagination: {
                 el: '.swiper-pagination',
                 type: 'bullets',
             },
