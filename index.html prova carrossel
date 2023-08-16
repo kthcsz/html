@@ -8,7 +8,7 @@
     <link href="https://fonts.google.com/specimen/Lora" rel="stylesheet">
     <link rel="stylesheet" href="icons8-chiclete-de-princesa-50.png"/>
     <link rel="stylesheet" href="style.css">
-    <title>sweet love</title>
+    <title>sweet bubblegum</title>
 </head>
 <body>
     <header class="cabeçalho">
@@ -104,7 +104,7 @@
         <p class="contato__texto">Caso queira um outro sabor que não tenha no cardápio, mande um email com sua preferência. ^ ^</p>
         <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
     </section>
-    <script src="link doido"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
         <script>
             const swiper = new Swiper('.swiper',{
             spaceBetween: 10,
