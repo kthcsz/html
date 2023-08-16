@@ -18,10 +18,10 @@
                 <span class="cabeçalho__menu-quadriculas container__imagem"></span>
             </label>
         <ul class="lista-menu">
-            <li type="circle" class="lista-menu__titulo">Categorias</li>
-            <li type="circle" class="lista-menu__item"><a href="#" class="lista-menu__link-1">Surpresa no pote</a></li>
-            <li type="circle" class="lista-menu__item"><a href="#" class="lista-menu__link-2">Ovo de colher</a></li>
-            <li type="circle" class="lista-menu__item"><a href="#" class="lista-menu__link-3">Bolos</a></li>
+            <li type="circle" class="lista-menu__titulo">Mais pedidos</li>
+            <li type="circle" class="lista-menu__item"><a href="#" class="lista-menu__link-1">Bolo no pote</a></li>
+            <li type="circle" class="lista-menu__item"><a href="#" class="lista-menu__link-2">Ovo de Ferrero Rocher</a></li>
+            <li type="circle" class="lista-menu__item"><a href="#" class="lista-menu__link-3">Copo da felicidade</a></li>
         </ul>
         <img src="icons8-chiclete-de-princesa-64.png" alt="Logo do site" class="container__imagem">
         </div>
@@ -55,8 +55,8 @@
     <div class="card">
         <div class="card_descrição">
             <div class="descrição">
-                <h3 class="descrição__titulo">Mais opções</h3>
-                <h2 class="descrição__titulo-livro">Barca de doce</h2>
+                <h3 class="descrição__titulo">Escolha</h3>
+                <h2 class="descrição__titulo-livro">Barca de guloseimas</h2>
                 <p class="descrição__texto">Nada melhor que uma barca cheia de doces para alegrar aquele dia nublado e cinzento.</p>
             </div>
             <img src="oie_mYlEPhExvSzc.jpg" class="descrição__imagem" alt="Cartão">
@@ -71,31 +71,31 @@
     </div>
     </section>
     <section class="topicos">
-        <h2 class="topicos__titulos">Escolha</h2>
+        <h2 class="topicos__titulos">Mais opções</h2>
         <ul class="topicos__listas">
             <ul class="topicos__itens">
-                <a href="#" class="topicos__link">Romance</a>
+                <a href="#" class="topicos__link">Ovos de colher</a>
             </ul>
             <ul class="topicos__itens">
-                <a href="#" class="topicos__link">Historia</a>
+                <a href="#" class="topicos__link">Bolo no pote</a>
             </ul>
             <ul class="topicos__itens">
-                <a href="#" class="topicos__link">Literatura</a>
+                <a href="#" class="topicos__link">Caixinha de brigadeiros</a>
             </ul>
             <ul class="topicos__itens">
-                <a href="#" class="topicos__link">Filosofia</a>
+                <a href="#" class="topicos__link">Cones trufados</a>
             </ul>
             <ul class="topicos__itens">
-                <a href="#" class="topicos__link">Drama</a>
+                <a href="#" class="topicos__link">Brownie recheado</a>
             </ul>
             <ul class="topicos__itens">
-                <a href="#" class="topicos__link">Fantasia</a>
+                <a href="#" class="topicos__link">Copos da felicidade</a>
             </ul>
             <ul class="topicos__itens">
-                <a href="#" class="topicos__link">Suspense</a>
+                <a href="#" class="topicos__link">Barcas de guloseimas</a>
             </ul>
             <ul class="topicos__itens">
-                <a href="#" class="topicos__link">Psicologia</a>
+                <a href="#" class="topicos__link">Torta/Bombom no pote</a>
             </ul>
         </ul>
     </section>
