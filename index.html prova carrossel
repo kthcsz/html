@@ -19,33 +19,33 @@
             </label>
         <ul class="lista-menu">
             <li type="circle" class="lista-menu__titulo">Categorias</li>
-            <li type="circle" class="lista-menu__item"><a href="#" class="lista-menu__link-1">Quadros</a></li>
-            <li type="circle" class="lista-menu__item"><a href="#" class="lista-menu__link-2">Musicas</a></li>
-            <li type="circle" class="lista-menu__item"><a href="#" class="lista-menu__link-3">Livros</a></li>
+            <li type="circle" class="lista-menu__item"><a href="#" class="lista-menu__link-1">Surpresa no pote</a></li>
+            <li type="circle" class="lista-menu__item"><a href="#" class="lista-menu__link-2">Ovo de colher</a></li>
+            <li type="circle" class="lista-menu__item"><a href="#" class="lista-menu__link-3">Bolos</a></li>
         </ul>
-        <img src="icone" alt="Logo do site" class="container__imagem">
+        <img src="icons8-chiclete-de-princesa-64.png" alt="Logo do site" class="container__imagem">
         </div>
         <div class="container">
-        <a href="#"><img src="icone" alt="meus favoritos" class="container__imagem"></a>
-        <a href="#"><img src="icone" alt="minhas compras" class="container__imagem"></a>
-        <a href="#"><img src="icone" alt="meu perfil" class="container__imagem"></a>
+        <a href="#"><img src="icons8-pasta-de-favoritos-30.png" alt="meus favoritos" class="container__imagem"></a>
+        <a href="#"><img src="icons8-confeitaria-30.png" alt="minhas compras" class="container__imagem"></a>
+        <a href="#"><img src="icons8-usuário-30.png" alt="meu perfil" class="container__imagem"></a>
         </div>
     </header>
     <section class="banner">
-        <h2 class="banner__titulo">Nao somos ricos pelo que temos...</h2>
-        <input type="search" class="banner__pesquisa" placeholder="Para pipipipopopo">
+        <h2 class="banner__titulo">Doçuras da Jujuba</h2>
+        <input type="search" class="banner__pesquisa" placeholder="Pesquisar">
     </section>
     <section class="carrossel" >
-        <h2 class="carrossel__titulo"> Novos começos</h2>
+        <h2 class="carrossel__titulo">Cardápio</h2>
         <div class="swiper">
         <div class="swiper-pagination"></div>
         <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="img da comida"alt="Livro-1"></div>
-            <div class="swiper-slide"><img src="img da comida"alt="Livro-2"></div>
-            <div class="swiper-slide"><img src="img da comida"alt="Livro-3"></div>
-            <div class="swiper-slide"><img src="img da comida"alt="Livro-4"></div>
-            <div class="swiper-slide"><img src="img da comida"alt="Livro-5"></div>
-            <div class="swiper-slide"><img src="img da comida"alt="Livro-6"></div>
+            <div class="swiper-slide"><img src="oie_jpg.png"alt="Livro-1"></div>
+            <div class="swiper-slide"><img src="oie_KAufZcM3vH9I.jpg"alt="Livro-2"></div>
+            <div class="swiper-slide"><img src="oie_16222479ELqbyIc.jpg"alt="Livro-3"></div>
+            <div class="swiper-slide"><img src="oie_k2d8Qv9hBsIw.jpg"alt="Livro-4"></div>
+            <div class="swiper-slide"><img src="oie_1623211EFrIdowI.jpg"alt="Livro-5"></div>
+            <div class="swiper-slide"><img src="oie_gsgXa1PNUTNq.jpg"alt="Livro-6"></div>
             <div class="swiper-slide"><img src="img da comida"alt="Livro-7"></div>
         </div>
         <div class="swiper-pagination"></div>
@@ -55,7 +55,7 @@
     <div class="card">
         <div class="card_descrição">
             <div class="descrição">
-                <h3 class="descrição__titulo">Para se eternizar</h3>
+                <h3 class="descrição__titulo">Mais opções</h3>
                 <h2 class="descrição__titulo-livro">pipipipopopo</h2>
                 <p class="descrição__texto">alalalalalala</p>
             </div>
@@ -63,12 +63,46 @@
         </div>
         <div class="card__botões">
             <ul class="botões">
-                <ul class="botões__itens"><img src="icone" alt="livro favoritos"></ul>
-                <ul class="botões__itens"><img src="icone" alt="livro pra comprar"></ul>
+                <ul class="botões__itens"><img src="icons8-favoritos-30.png" alt="livro favoritos"></ul>
+                <ul class="botões__itens"><img src="icons8-compra-30.png" alt="livro pra comprar"></ul>
             </ul>
             <a href="#" class="botões__ancora">Saiba mais</a>
         </div>
     </div>
+    </section>
+    <section class="topicos">
+        <h2 class="topicos__titulos">Acesse</h2>
+        <ul class="topicos__listas">
+            <ul class="topicos__itens">
+                <a href="#" class="topicos__link">Romance</a>
+            </ul>
+            <ul class="topicos__itens">
+                <a href="#" class="topicos__link">Historia</a>
+            </ul>
+            <ul class="topicos__itens">
+                <a href="#" class="topicos__link">Literatura</a>
+            </ul>
+            <ul class="topicos__itens">
+                <a href="#" class="topicos__link">Filosofia</a>
+            </ul>
+            <ul class="topicos__itens">
+                <a href="#" class="topicos__link">Drama</a>
+            </ul>
+            <ul class="topicos__itens">
+                <a href="#" class="topicos__link">Fantasia</a>
+            </ul>
+            <ul class="topicos__itens">
+                <a href="#" class="topicos__link">Suspense</a>
+            </ul>
+            <ul class="topicos__itens">
+                <a href="#" class="topicos__link">Psicologia</a>
+            </ul>
+        </ul>
+    </section>
+    <section class="contato">
+        <h2 class="contato__titulo">Mais novidades a caminho</h2>
+        <p class="contato__texto">Um dia sem ler é um dia a mais para seus objetivos</p>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
     </section>
     <script src="link doido"></script>
         <script>
