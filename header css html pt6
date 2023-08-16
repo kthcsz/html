@@ -1,13 +1,13 @@
 .cabeçalho__menu-quadriculas{
     width: 60px;
     height: 60px;
-    background-image: url(iconeee);
+    background-image: url(icons8-cupcake-30.png);
     background-repeat: no-repeat;
     display: inline-block;
     background-position: center;
 }
 .cabeçalho{
-    background-color: white;
+    background-color: var(--cor-do-menu);
     border-radius: 10%;
     display: flex;
     justify-content: space-between;
@@ -30,7 +30,7 @@
 .lista-menu__titulo,
 .lista-menu__item{
     padding: 1em;
-    background-color: var(--cor-do-menu-fundo);
+    background-color: var(--cor-do-menu--fundo);
     text-transform: uppercase;
 }
 .lista-mdenu__titulo{
