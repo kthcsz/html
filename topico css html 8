@@ -1,5 +1,5 @@
 .topicos{
-    background-color: var(--cor-do-menu-fundo);
+    background-color: var(--cor-do-menu--fundo);
     text-align: center;
     border-radius: 10px;
 }
