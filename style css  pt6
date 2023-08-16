@@ -3,13 +3,13 @@
 @import url("styles/carrossel.css");
 
 :root{
-    --cor-de--fundo: #b0e0e6;
-    --cor-do-menu: #D8BFD8;
-    --titulo: #e6e6fa;
-    --cor-do-menu-fundo: #fff0f5;
-    --link-1: #ffffe0;
-    --link-2: #fafad2;
-    --link-3: #fffacd;
+    --cor-de--fundo: #F6FFFB;
+    --cor-do-menu: #d38dd3;
+    --titulo: #9c9ccc;
+    --cor-do-menu--fundo: #a36f80;
+    --link-1: #e48c8c;
+    --link-2: #e0e0a6;
+    --link-3: #d6cd7c;
     --fonte-principal:"Fasthand"
 }
 body{
