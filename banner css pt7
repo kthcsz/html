@@ -4,7 +4,7 @@
 }
 .banner{
     background: #EE82EE;
-    color: var(--cor-do-menu-fundo);
+    color: var(--cor-do-menu--fundo);
     text-align: center;
     padding: 1em 2em;
     margin: 10px;
@@ -30,6 +30,6 @@
     font-weight: 400;
     text-align: center;
     color: #EE82EE;
-    background:url(icone)no-repeat;
+    background:url(icons8-chiclete-de-princesa-50.png)no-repeat;
     background-position: 1em;
 }
