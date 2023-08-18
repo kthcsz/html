@@ -6,22 +6,24 @@
     <link rel="preconnect" href="https://fonts.google.com/specimen/Lora">
     <link rel="preconnect" href="https://fonts.google.com/specimen/Lora" crossorigin>
     <link href="https://fonts.google.com/specimen/Lora" rel="stylesheet">
-    <link rel="stylesheet" href="icons8-chiclete-de-princesa-50.png"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="icons8-chiclete-de-princesa-64.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>sweet bubblegum</title>
 </head>
 <body>
     <header class="cabeçalho">
-        <div class="contaner" >
+        <div class="container" >
             <input type="checkbox" id="menu" class="container__botao">
             <label for="menu">
-                <span class="cabeçalho__menu-quadriculas container__imagem"></span>
+                <span class="cabeçalho_menu-quadriculas container_imagem"></span>
             </label>
         <ul class="lista-menu">
             <li type="circle" class="lista-menu__titulo">Mais pedidos</li>
-            <li type="circle" class="lista-menu__item"><a href="#" class="lista-menu__link-1">Bolo no pote</a></li>
-            <li type="circle" class="lista-menu__item"><a href="#" class="lista-menu__link-2">Ovo de Ferrero Rocher</a></li>
-            <li type="circle" class="lista-menu__item"><a href="#" class="lista-menu__link-3">Copo da felicidade</a></li>
+            <li type="circle" class="lista-menu_item"><a href="#" class="lista-menu_link-1">Bolo no pote</a></li>
+            <li type="circle" class="lista-menu_item"><a href="#" class="lista-menu_link-2">Ovo de Ferrero Rocher</a></li>
+            <li type="circle" class="lista-menu_item"><a href="#" class="lista-menu_link-3">Copo da felicidade</a></li>
         </ul>
         <img src="icons8-chiclete-de-princesa-64.png" alt="Logo do site" class="container__imagem">
         </div>
@@ -40,13 +42,13 @@
         <div class="swiper">
         <div class="swiper-pagination"></div>
         <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="oie_jpg.png"alt="Livro-1"></div>
-            <div class="swiper-slide"><img src="oie_KAufZcM3vH9I.jpg"alt="Livro-2"></div>
-            <div class="swiper-slide"><img src="oie_16238298d72zI1g.jpg"alt="Livro-3"></div>
-            <div class="swiper-slide"><img src="oie_k2d8Qv9hBsIw.jpg"alt="Livro-4"></div>
-            <div class="swiper-slide"><img src="oie_1623211EFrIdowI.jpg"alt="Livro-5"></div>
-            <div class="swiper-slide"><img src="oie_gsgXa1PNUTNq.jpg"alt="Livro-6"></div>
-            <div class="swiper-slide"><img src="oie_mYlEPhExvSzc.jpg"alt="Livro-7"></div>
+            <div class="swiper-slide"><img src="oie_KAufZcM3vH9I.jpg"alt="Ovo de colher ninho com nutella"></div>
+            <div class="swiper-slide"><img src="oie_mYlEPhExvSzc.jpg"alt="Barca de guloseimas"></div>
+            <div class="swiper-slide"><img src="oie_jpg.png"alt="Copo da felicidade de oreo"></div>
+            <div class="swiper-slide"><img src="oie_k2d8Qv9hBsIw.jpg"alt="bolo de brigadeiro"></div>
+            <div class="swiper-slide"><img src="oie_16238298d72zI1g.jpg"alt="copo banoffe"></div>
+            <div class="swiper-slide"><img src="oie_gsgXa1PNUTNq.jpg"alt="ovo ferrero"></div>
+            <div class="swiper-slide"><img src="oie_1623211EFrIdowI.jpg"alt="bolo caseiro dois amores"></div>
         </div>
         <div class="swiper-pagination"></div>
         <div class="swiper-button-prev"></div>
@@ -62,11 +64,7 @@
             <img src="oie_mYlEPhExvSzc.jpg" class="descrição__imagem" alt="Cartão">
         </div>
         <div class="card__botões">
-            <ul class="botões">
-                <ul class="botões__itens"><img src="icons8-favoritos-30.png" alt="livro favoritos"></ul>
-                <ul class="botões__itens"><img src="icons8-compra-30.png" alt="livro pra comprar"></ul>
-            </ul>
-            <a href="#" class="botões__ancora">Saiba mais</a>
+                  <a href="#" class="botões__ancora">Saiba mais</a>
         </div>
     </div>
     </section>
@@ -105,15 +103,13 @@
         <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
     </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-        <script>
-            const swiper = new Swiper('.swiper',{
-            spaceBetween: 10,
-            slidesPerView: 3,
-            pagination: {
-                el: '.swiper-pagination',
-                type: 'bullets',
-            },
-            });
-        </script>
-</body>
-</html>
+    <script>
+        const swiper = new Swiper('.swiper',{
+        spaceBetween: 10,
+        slidesPerView: 3, 
+        pagination: {
+            el:'.swiper-pagination',
+            type:'bullets',
+        },
+        });
+    </script>
