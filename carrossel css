@@ -35,17 +35,17 @@
 }
 .card{
     background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(253, 2, 2, 0.25);
     border-radius: 10px;
     margin: 1em;
     padding: 1em;
 }
 .descrição__titulo{
-    color: bisque;
+    color: rgb(0, 0, 0);
     font-weight: 700;
 }
 .descrição__titulo-livro{
-    color: var(--cor-do-menu--fundo);
+    color: var(--titulo);
     font-weight: 700;
     font-size: 18px;
     margin: 1em 0 ;
