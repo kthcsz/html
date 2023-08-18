@@ -1,15 +1,17 @@
-@import url("styles/header.css");
-@import url("styles/banner.css");
-@import url("styles/carrossel.css");
+@import url("header.css");
+@import url("banner.css");
+@import url("carrossel.css");
+@import url("topicos.css");
+@import url("contato.css");
 
 :root{
-    --cor-de--fundo: #F6FFFB;
-    --cor-do-menu: #d38dd3;
-    --titulo: #9c9ccc;
-    --cor-do-menu--fundo: #a36f80;
-    --link-1: #e48c8c;
-    --link-2: #e0e0a6;
-    --link-3: #d6cd7c;
+    --cor-de--fundo: #ffffff;
+    --cor-do-menu: #edb3b2a7;
+    --titulo: #541e12;
+    --cor-do-menu--fundo: #edb3b2;
+    --link-1: #541e12;
+    --link-2: #541e12;
+    --link-3: #541e12;
     --fonte-principal:"Fasthand"
 }
 body{
