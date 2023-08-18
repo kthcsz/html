@@ -3,7 +3,7 @@
     padding: 0;
 }
 .banner{
-    background: #EE82EE;
+    background: #541e12;
     color: var(--cor-do-menu--fundo);
     text-align: center;
     padding: 1em 2em;
@@ -13,6 +13,7 @@
 .banner__titulo{
     font-size:21px;
     font-weight: 700;
+    color: white;
 }
 .banner__pesquisa{
     background-color: transparent;
@@ -29,7 +30,7 @@
     font-size: 16px;
     font-weight: 400;
     text-align: center;
-    color: #EE82EE;
+    color: #ffffff;
     background:url(icons8-chiclete-de-princesa-50.png)no-repeat;
     background-position: 1em;
 }
