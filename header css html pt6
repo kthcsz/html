@@ -33,8 +33,8 @@
     background-color: var(--cor-do-menu--fundo);
     text-transform: uppercase;
 }
-.lista-mdenu__titulo{
-    color: var(--titulo);
+.lista-menu__titulo{
+    color: var(#000000);
 }
 .lista-menu__link-1{
     color: var(--link-1);
