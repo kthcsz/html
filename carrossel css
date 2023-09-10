@@ -67,3 +67,35 @@
 .descrição__imagem{
     border-radius: 10px;
 }
+.fa-instagram {
+    background: var(--cor-do-menu);
+    color: rgb(255, 255, 255);
+    border-radius: 16px;
+    border-style: dotted;
+    border-color: var(--link-1);
+}
+.fa-facebook {
+    background: var(--cor-do-menu);
+    color: rgb(255, 255, 255);
+    border-radius: 16px;
+    border-style: dotted;
+    border-color: var(--link-1);
+}
+@media screen and (min-width:808px){
+    .carrossel__titulo{
+        font-size: 26px;
+    }
+    .swiper-pagination{
+        margin: 1em 0 1em 0;
+    }
+    .swiper-button-prev,
+    .swiper-button-next{
+        display: block;
+    }
+    .card{
+        width: 60%;
+        text-align: center;
+        margin: 1em auto;
+    }
+    
+}
