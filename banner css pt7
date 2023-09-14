@@ -31,7 +31,7 @@
     font-weight: 400;
     text-align: center;
     color: #ffffff;
-    background:url(icons8-chiclete-de-princesa-50.png)no-repeat;
+    background:url("icons8-chiclete-de-princesa-50.png")no-repeat;
     background-position: 1em;
 }
 @media screen and (min-width:808px){
