@@ -121,7 +121,7 @@
                      <a href="#" class="lista-rodape__link">Instagram</a>
             </li>
             <li class="lista-rodape__itens">
-                <img src="icons8-twitter-50.png" alt="Twitter>
+                <img src="icons8-twitter-50.png" alt="Twitter">
                      <a href="#" class="lista-rodape__link">Twitter</a>
             </li>
             <li class="lista-rodape__itens">
@@ -136,7 +136,7 @@
                      <a href="#" class="lista-rodape__link">Email</a>
             </li>
             <li class="lista-rodape__itens">
-                <img src="icons8-whatsapp-50.png" alt="WhatsApp"
+                <img src="icons8-whatsapp-50.png" alt="WhatsApp">
                      <a href="#" class="lista-rodape__link">WhatsApp</a>
             </li>
     </footer>
